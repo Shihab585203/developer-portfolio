@@ -5,10 +5,12 @@ body{
 h1 {
     font-size: 40px;
 }
-section{
+.flexible-container{
     display: flex;
-    padding-top: 50px;
     margin-bottom: 100px;
+}
+.upper-padding{
+    padding-top: 50px;
 }
 .top-banner {
     background-image: url(images/top-banner.png);
