@@ -1,11 +1,18 @@
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    }
+    margin: 0;
+}
 h1 {
     font-size: 40px;
 }
 section{
     display: flex;
+    padding-top: 50px;
+    margin-bottom: 100px;
+}
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width {
     width: 50%;
@@ -17,7 +24,7 @@ section{
 .half-width p {
     color: dimgray;
 }
-span .orange-color{
+span.orange-color{
     color: orange;
 }
 .link-button{
@@ -27,4 +34,9 @@ span .orange-color{
     text-decoration: none;
     font-weight: 700;
     padding: 10px 30px;  
+}
+.dream-big {
+    background: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
